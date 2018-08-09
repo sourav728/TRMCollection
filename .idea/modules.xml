@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TRMCollection.iml" filepath="$PROJECT_DIR$/TRMCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TRM_Collection/TRM_Collection.iml" filepath="$PROJECT_DIR$/TRM_Collection/TRM_Collection.iml" />
+    </modules>
+  </component>
+</project>

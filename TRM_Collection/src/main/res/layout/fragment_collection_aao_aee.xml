@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.transvision.trmcollection.fragments.Collection_AAO_AEE">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:id="@+id/aao_main_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="@dimen/dp8"
+                android:layout_marginStart="@dimen/dp8"
+                android:layout_marginTop="@dimen/dp16"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/aao_til_customer_account_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/aao_et_customer_account_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/account_id"
+                        android:imeOptions="actionSearch"
+                        android:inputType="number"
+                        android:maxLength="10"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:id="@+id/aao_transaction_mode_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <RadioGroup
+                        android:id="@+id/coll_mode_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dp32"
+                        android:layout_marginStart="@dimen/dp32"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/coll_cash_mode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.75"
+                            android:checked="true"
+                            android:text="@string/cash"/>
+
+                        <RadioButton
+                            android:id="@+id/coll_chq_mode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.75"
+                            android:text="@string/cheque"/>
+
+                        <RadioButton
+                            android:id="@+id/coll_dd_mode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/dd"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/aao_customer_details_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/aao_txt_customer_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/customer_name"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/aao_customer_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/aao_txt_customer_rrno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/customer_rrno"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/aao_customer_rrno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/aao_txt_customer_account_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/customer_account_id"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/aao_customer_account_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/aao_txt_customer_tariff"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/customer_tariff"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/aao_customer_tariff"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/aao_txt_customer_bill_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/customer_bill_amount"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/aao_customer_bill_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/aao_coll_type_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/aao_txt_coll_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/collection_type"
+                            android:textStyle="bold"/>
+
+                        <RadioGroup
+                            android:id="@+id/aao_coll_type_group"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/aao_coll_rev_mode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:checked="true"
+                                android:text="@string/revenue"/>
+
+                            <RadioButton
+                                android:id="@+id/aao_coll_non_rev_mode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/non_revenue"/>
+
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/aao_non_revenue_header_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/aao_txt_mis_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/non_revenue_header"
+                            android:textStyle="bold"/>
+
+                        <Spinner
+                            android:id="@+id/aao_sp_mis_type_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/aao_txt_paid_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/paid_amount"
+                            android:textStyle="bold"/>
+
+                        <EditText
+                            android:id="@+id/aao_et_paid_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="@string/amount"
+                            android:inputType="number"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/aao_btn_add_transaction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dp8"
+                        android:layout_marginStart="@dimen/dp8"
+                        android:text="@string/add_transaction"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/aao_details_list_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TableLayout
+                        android:id="@+id/aao_details_table_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp4"
+                        android:shrinkColumns="*"
+                        android:stretchColumns="*">
+
+                        <TableRow
+                            android:id="@+id/aao_details_table_row"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/aao_list_txt_rrno"
+                                android:layout_width="90dp"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="@string/rrno"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/aao_list_txt_acc_id"
+                                android:layout_width="90dp"
+                                android:layout_height="wrap_content"
+                                android:padding="5dp"
+                                android:text="@string/acc_id"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/aao_list_txt_amt"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="@string/amount"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/aao_list_img_delete"
+                                android:layout_width="15dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text=""/>
+                        </TableRow>
+                    </TableLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/aao_details_list_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp72"
+                        android:layout_marginTop="@dimen/dp16"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_coll_total"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/dp8"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:text="@string/total"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/total_coll"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dp8"
+                            android:layout_weight="1"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <include layout="@layout/bottombar"/>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

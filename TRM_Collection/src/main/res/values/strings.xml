@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">TRM Collection</string>
+
+    <string name="company_details">© 2018 Transvision Software &amp; Data Solutions Pvt Ltd.\n
+        All Rights Reserved\n<u>www.transvisionsolutions.com</u></string>
+
+    <string-array name="login_role">
+        <item>--SELECT--</item>
+        <item>MR</item>
+        <item>AAO</item>
+        <item>AEE</item>
+        <item>LINEMAN</item>
+    </string-array>
+
+    <string-array name="bank_list">
+        <item>--SELECT--</item>
+        <item>State Bank of India</item>
+        <item>Canara Bank</item>
+        <item>Syndicate Bank</item>
+        <item>Bank Of India</item>
+        <item>ICICI</item>
+        <item>KARNATAKA BANK</item>
+        <item>INDIAN OVERSEES BANK</item>
+        <item>CORPORATION BANK</item>
+        <item>BANK OF BARODA</item>
+        <item>ANDHRA BANK</item>
+        <item>MAHARASTRA BANK</item>
+        <item>HDFC BANK</item>
+        <item>IDBI BANK</item>
+        <item>MYSORE BANK</item>
+        <item>ING VYSYA BANK</item>
+        <item>KARNATAKA BANK</item>
+        <item>BELGAUM LOCAL BANK</item>
+        <item>AXIS BANK</item>
+        <item>PUNJAB NATIONAL BANK</item>
+        <item>MALAPRABHA GRAMEEN BANK</item>
+        <item>SANGLI GRAMEEN BANK</item>
+        <item>KV GRAMEEN BANK</item>
+        <item>OTHER BANKS</item>
+    </string-array>
+
+    <string name="textview">TextView</string>
+    <string name="login_txt">LOGIN</string>
+    <string name="login_user_txt">User</string>
+    <string name="login_mr">MR ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_date">Date</string>
+    <string name="login_admin">Admin ID</string>
+    <string name="login_btn">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="collection">Collections</string>
+    <string name="collection_reports">Collection Reports</string>
+    <string name="collection_summary">Collection Summary</string>
+    <string name="collection_upload">Upload Collection</string>
+    <string name="upload">Upload</string>
+    <string name="settings">Settings</string>
+    <string name="complaints">Complaints</string>
+    <string name="logout">Logout</string>
+    <string name="mr_name">MR Name :</string>
+    <string name="mr_code">MR Code :</string>
+    <string name="device_id">Device ID :</string>
+    <string name="app_ver">App Ver :</string>
+    <string name="bt_printer">BT Printer :</string>
+    <string name="semicolon">:</string>
+    <string name="modify_printer_btn">Modify Printer</string>
+    <string name="print">Print</string>
+    <string name="account_id">Enter Account ID</string>
+    <string name="customer_name">Name :</string>
+    <string name="customer_rrno">RRNO :</string>
+    <string name="customer_account_id">Account ID :</string>
+    <string name="customer_tariff">Tariff :</string>
+    <string name="customer_bill_amount">Bill Amount :</string>
+    <string name="paid_amount">Amount :</string>
+    <string name="collection_type">Coll Type :</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="amount">AMOUNT</string>
+    <string name="rrno">RRNO</string>
+    <string name="acc_id">ACC ID</string>
+    <string name="login_id">Login ID</string>
+    <string name="password">Password</string>
+    <string name="dialog_login">LOGIN</string>
+    <string name="login_dialog_title">Logging</string>
+    <string name="login_dialog_msg">Logging in &amp; Checking details please wait for some time&#8230;</string>
+    <string name="dialog_login_id_error">Enter Login ID</string>
+    <string name="dialog_login_password_error">Enter Password</string>
+    <string name="change_printer">Change Printer</string>
+    <string name="select_ok">OK</string>
+    <string name="select_cancel">Cancel</string>
+    <string name="printer_selection_error">Please select printer name &amp; proceed&#8230;</string>
+    <string name="rupee">\u20B9</string>
+    <string name="print_success">Print Success</string>
+    <string name="print_failed">Print Failed</string>
+    <string name="ask_print">Do you want to Print&#8230;??</string>
+    <string name="printing">Printing Please wait to Complete&#8230;</string>
+    <string name="printer_connection">Bluetooth printer is connected to the device..</string>
+    <string name="office_payment_print">Print Office copy&#8230;??</string>
+    <string name="exit_collection">Collection Print Generated Successfully&#8230;??</string>
+    <string name="collection_report_mr">MR REPORT</string>
+    <string name="collection_mr">MRCode</string>
+    <string name="no_label">NO</string>
+    <string name="yes_label">YES</string>
+    <string name="collection_report_print">Collection Report Print Generated Successfully&#8230;??</string>
+    <string name="printer_connection_error">Printer is not connected&#8230; Please connect to it and proceed&#8230;</string>
+    <string name="dlg_printer_connection">Printer Issue</string>
+    <string name="internet_connection">Please check the internet connection and proceed&#8230;</string>
+    <string name="posting_title">Posting</string>
+    <string name="posting_message">Posting data please wait&#8230;</string>
+    <string name="collection_over_title">Payment Issue</string>
+    <string name="collection_over_message">Maximum Collection allotted to user is reached&#8230;\nSo no further Payment or Collection is issued by the user&#8230;</string>
+    <string name="collection_time_title">Time Issue</string>
+    <string name="collection_time_message">Collection Time is Over to the user&#8230;</string>
+    <string name="collection_limit">Collection Limit</string>
+    <string name="collection_limit_message">Collection amount exceeded&#8230;</string>
+    <string name="collection_bill_amount">Paying amount must be greater or equals to Bill Amount&#8230;</string>
+    <string name="collection_cash_limit">Amount more than \u20B9 10,000 is not accepted by Cash&#8230;</string>
+    <string name="collection_amount_valid">Enter valid paying amount more than 0&#8230;</string>
+    <string name="collection_amount">Enter Paying Amount&#8230;</string>
+    <string name="collection_acc_id">Please enter valid Account ID&#8230;</string>
+    <string name="collection_acc_details">Fetching customer details please wait&#8230;</string>
+    <string name="collection_paid">Customer already paid&#8230;</string>
+    <string name="collection_posting_fail">Failed to update the collection&#8230;\nPlease check it once again&#8230;</string>
+    <string name="collection_login_approval">Collection is not approved for the user&#8230;\nPlease check it with the admin&#8230;</string>
+    <string name="collection_login_failure">User login details did not match&#8230;\nPlease login once again&#8230;</string>
+    <string name="collection_acc_id_error">Entered Account id details is not found for the user&#8230;</string>
+    <string name="collection_acc_id_search_error">Collection for the Searching Account ID is already paid&#8230;</string>
+    <string name="system_date_not_matching">Please check with the System date &amp; time&#8230;</string>
+    <string name="collection_apk_update_title">App Updates</string>
+    <string name="collection_apk_update_button">UPDATE</string>
+    <string name="collection_apk_download_msg">Application Downloading&#8230; Please Wait&#8230;</string>
+    <string name="collection_apk_not_found_to_download">Apk not found to download from server&#8230;\nPlease ask to update in server&#8230;</string>
+    <string name="collection_app_login_role_error">Please select login role for Collection&#8230;</string>
+    <string name="collection_app_permissions">Required All Permissions to be granted&#8230;</string>
+    <string name="current_version">Your current version number : </string>
+    <string name="newer_version">New version is available : </string>
+    <string name="collection_reports_title">Collection Reports</string>
+    <string name="collection_reports_message">Fetching Collection Reports Data&#8230; Please wait for some time&#8230;</string>
+    <string name="collection_report_status_title">Collection Status</string>
+    <string name="start_receipt">Start Receipt</string>
+    <string name="end_receipt">End Receipt</string>
+    <string name="receipt_series">Receipt Series</string>
+    <string name="total_receipt">Total Receipt</string>
+    <string name="no_collection_data">No Collection Records found for the user&#8230;</string>
+    <string name="no_collection_records">No Collection Records found to print&#8230;</string>
+    <string name="collection_report_header">COLLECTION REPORT </string>
+    <string name="mid">MID</string>
+    <string name="slno">SLNO</string>
+    <string name="acct_id">ACCTID</string>
+    <string name="receipt">RECEIPT</string>
+    <string name="total">TOTAL</string>
+    <string name="cash">CASH</string>
+    <string name="cheque">CHEQUE</string>
+    <string name="dd">DD</string>
+    <string name="ngx">NGX</string>
+    <string name="alg">ALG</string>
+    <string name="tvd">GPT</string>
+    <string name="next">NEXT</string>
+    <string name="chq_no">Cheque Number</string>
+    <string name="micr">MICR</string>
+    <string name="dd_no">Demand Draft Number</string>
+    <string name="date">Date</string>
+    <string name="collection_next_print">Print next Account ID Collection details&#8230;</string>
+    <string name="collection_print_title">Collection Print</string>
+    <string name="collection_chq_title">Cheque Details</string>
+    <string name="collection_dd_title">DD Details</string>
+    <string name="collection_cheque_number">Please enter Cheque No &amp; proceed&#8230;</string>
+    <string name="collection_cheque_micr">Please enter Cheque MICR &amp; proceed&#8230;</string>
+    <string name="collection_dd_micr">Please enter Demand Draft(DD) MICR &amp; proceed&#8230;</string>
+    <string name="collection_cheque_date">Please take Cheque date &amp; proceed&#8230;</string>
+    <string name="collection_cheque_bank">Please select cheque bank &amp; proceed&#8230;</string>
+    <string name="collection_dd_number">Please enter DD No &amp; proceed&#8230;</string>
+    <string name="collection_dd_date">Please take DD date &amp; proceed&#8230;</string>
+    <string name="collection_dd_bank">Please select DD bank &amp; proceed&#8230;</string>
+    <string name="collection_scan">Scan BarCode</string>
+    <string name="revenue">REV</string>
+    <string name="non_revenue">NON REV</string>
+    <string name="non_revenue_header">Mis Type :</string>
+    <string name="transaction_dialog_title">Transaction Count</string>
+    <string name="transaction_dialog_msg">Maximum 25 Account\'s are enabled to add not more than that&#8230;</string>
+    <string name="chq_dishonour_dialog_title">Cheque Dishonour</string>
+    <string name="chq_dishonour_dialog_msg">Customer Cheque has dishonoured, So cannot take Cheque&#8230; Pay through Cash or DD&#8230;</string>
+    <string name="reprint_label">REPRINT</string>
+    <string name="printing_label">Printing</string>
+    <string name="mis_type_error">Please select MIS Type and proceed&#8230;</string>
+    <string name="details_clear_msg">Please clear all transactions added in the collections&#8230; &amp; close the application&#8230;</string>
+    <string name="printer_test_btn">Test Connected Printer</string>
+    <string name="cheque_error">Please enter valid Cheque number&#8230;</string>
+    <string name="cheque_micr_error">Please enter valid Cheque MICR number&#8230;</string>
+    <string name="dd_micr_error">Please enter valid Demand Draft(DD) MICR number&#8230;</string>
+    <string name="dd_error">Please enter valid Demand Draft(DD) number</string>
+    <string name="testing_app">Testing Server</string>
+
+    <string-array name="bt_print_list">
+        <item>SELECT</item>
+        <item>NGX</item>
+        <item>GPT</item>
+        <item>ALG</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
